@@ -68,7 +68,7 @@ struct Orientacion ingresarOrientacion()//Estructura para Ingresar los datos
     struct Orientacion Datos;//Indicamos donde hubicaremos y guardaremos la informacion que ingresemos
 
     printf("Ingrese los datos para calcular la posicion del sol en formato grados, minutos, segundos\n");
-    printf("Ejemplo: Latitud = grados:3, minutos:59, segundos:35.3, Longitud grados:79, minutos:12, segundos:15.2'\n");
+    printf("Ejemplo: Latitud = grados:3, minutos:59, segundos:35.3, Longitud grados:79, minutos:12, segundos:15.2\n");
     Datos.latitud = obtenerDatos("Ingrese la latitud del lugar\n", 1);
     Datos.longitud = obtenerDatos("Ingrese la longitud del lugar\n", 2);
     Datos.longEstandar = obtenerNumero("Ingrese la longitud estandar del lugar\n", 2);
